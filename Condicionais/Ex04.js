@@ -1,11 +1,10 @@
-// Verificar se uma senha digitada está correta
-
 var prompt = require('prompt-sync')();
-let senha = prompt("Digite sua senha:");
-let senhacerta = 123321;
 
-if (senha == senhacerta) {
-    console.log("Senha correta")
+let Senha = String(prompt("Ola, Digite sua senha:\n"))
+let SenhaCerta = 12345;
+
+if (Senha == SenhaCerta) {
+    console.log("Sua senha esta correta👍");
 } else {
-    console.log("Senha incorreta")
+    console.log("Sua senha esta errada👎");
 }

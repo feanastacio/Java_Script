@@ -1,46 +1,52 @@
-// Verificar o mês pelo número(Switch case)
-
 var prompt = require('prompt-sync')();
-let numerodomes = Number(prompt("Digite o número do mês desejado: "));
 
-switch(numerodomes){
+let Mes = Number(prompt("Ola, Digite seu mes:"));
+
+
+switch (Mes) {
     case 1:
-        console.log("O mês é Janeiro")
+        console.log("Seu mes eh Janeiro");
         break;
+
     case 2:
-        console.log("O mês é Fevereiro")
+        console.log("Seu mes eh Fevereiro");
         break;
+
     case 3:
-        console.log("O mês é Março")
+        console.log("Seu mes eh Marco");
         break;
+
     case 4:
-        console.log("O mês é Abril")
+        console.log("Seu mes eh Abril");
         break;
+
     case 5:
-        console.log("O mês é Maio")
+        console.log("Seu mes eh Maio");
         break;
+        
     case 6:
-        console.log("O mês é Junho")
+        console.log("Seu mes eh Junho");
         break;
+
     case 7:
-        console.log("O mês é Julho")
+        console.log("Seu mes eh Julho");
         break;
     case 8:
-        console.log("O mês é Agosto")
+        console.log("Seu mes eh Agosto");
         break;
     case 9:
-        console.log("O mês é Setembro")
+        console.log("Seu mes eh Setembro");
         break;
     case 10:
-        console.log("O mês é Outubro")
+        console.log("Seu mes eh Outubro");
         break;
     case 11:
-        console.log("O mês é Novembro")
+        console.log("Seu mes eh Novembro");
         break;
     case 12:
-        console.log("O mês é Dezembro")
+        console.log("Seu mes eh Dezembro");
         break;
-    
+
     default:
-        console.log("Mês inválido")
-    }
+        console.log("Informacao invalida!😞");
+}

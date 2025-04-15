@@ -1,31 +1,36 @@
-// Dia da semana por número(Switch case)
+//f. Dia da semana por número(Switch case)
 
 var prompt = require('prompt-sync')();
-let dia = Number(prompt("Digite um número do dia da semana:"));
 
-switch(dia){
+let Dia = Number(prompt("Digite um dia da semana:"));
+
+switch (Dia) {
     case 1:
-        console.log("Hoje é Domingo")
+        console.log("O dia escolhido foi domingo");
         break;
+
     case 2:
-        console.log("Hoje é Segunda")
+        console.log("O dia escolhido foi segunda");
         break;
+
     case 3:
-        console.log("Hoje é Terça")
+        console.log("O dia escolhido foi terca");
         break;
+
     case 4:
-        console.log("Hoje é Quarta")
+        console.log("O dia escolhido foi quarta");
         break;
+
     case 5:
-        console.log("Hoje é Quinta")
-        break;
+        console.log("O dia escolhido foi quinta");
     case 6:
-        console.log("Hoje é Sexta")
+        console.log("O dia escolhido foi sexta");
         break;
+
     case 7:
-        console.log("Hoje é Sabado")
+        console.log("O dia escolhido foi sabado");
         break;
 
     default:
-        console.log("O dia não foi reconhecido")
+        console.log("Informacao invalida!😞");
 }

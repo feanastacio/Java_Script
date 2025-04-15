@@ -1,16 +1,14 @@
-// Menu simples até o usuário sair(Use o do...While)
-
-let prompt = require('prompt-sync')();
+var prompt = require('prompt-sync')();
 let num = 0;
 
-do {
-console.log(" ________________");
-console.log("|                |");
-console.log("|    1- Jogar    |");
-console.log("|    2- Config   |");
-console.log("|    0- Sair     |");
-console.log("|________________|");
+do{
+console.log("-------------------------");
+console.log("|                        |");
+console.log("|  1- Entrar             |");
+console.log("|  2- Logar              |");
+console.log("|  3- Sair               |");
+console.log("--------------------------");
 
-num = Number(prompt("Digite um numero: "))
-   
-} while (num !== 0);
+num = Number(prompt("Digite um numero :"))
+
+}while(num!==0)

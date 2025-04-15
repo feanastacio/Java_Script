@@ -1,10 +1,11 @@
-// Verificar se um número é par ou ímpar
-
 var prompt = require('prompt-sync')();
-let n = Number(prompt("Digite um número:"));
 
-if (n %2 == 0) {
-    console.log("Seu número é par")
-} else {
-    console.log("Seu número é ímpar")
+let Numero = Number(prompt("Ola, Digite seu numero?\n"))
+
+if (Numero %2 == 0) 
+{
+    console.log("Seu numero eh par!");
+}else
+{
+console.log("Seu numero eh impar!")
 }
