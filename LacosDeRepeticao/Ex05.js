@@ -1,3 +1,4 @@
+// Menu simples até o usuário sair(Use o do...While)
 var prompt = require('prompt-sync')();
 let num = 0;
 

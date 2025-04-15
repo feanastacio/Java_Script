@@ -1,3 +1,4 @@
+// Verificar se uma senha digitada está correta
 var prompt = require('prompt-sync')();
 
 let Senha = String(prompt("Ola, Digite sua senha:\n"))

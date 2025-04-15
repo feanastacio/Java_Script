@@ -1,3 +1,4 @@
+// Verificar se um número é positivo, negativo ou zero.
 var prompt = require('prompt-sync')();
 
 let Numero = Number(prompt("Ola, Digite seu numero?\n"))

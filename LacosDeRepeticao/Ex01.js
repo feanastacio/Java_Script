@@ -1,3 +1,4 @@
+// Contar de 1 a 10(Use o While)
 var prompt = require('prompt-sync')();
 
 let num = 1;

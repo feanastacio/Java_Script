@@ -1,3 +1,4 @@
+// Verificar senha com tentativa até acertar(Use o While)
 let senhaCorreta = 12345;
 let prompt = require('prompt-sync')();
 
@@ -8,4 +9,3 @@ while (senhaCorreta != senhaInfomada)
     senhaInfomada = Number(prompt("A senha esta errada digite novamente:"))
     
 }
-

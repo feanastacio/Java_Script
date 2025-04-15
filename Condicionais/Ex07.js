@@ -1,3 +1,4 @@
+// Verificar o mês pelo número(Switch case)
 var prompt = require('prompt-sync')();
 
 let Mes = Number(prompt("Ola, Digite seu mes:"));

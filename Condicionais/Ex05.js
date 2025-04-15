@@ -1,3 +1,4 @@
+// Verificar se um aluno foi aprovado
 var prompt = require('prompt-sync')();
 
 let Nota = Number(prompt("Ola, Digite sua nota:\n"))

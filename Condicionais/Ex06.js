@@ -1,4 +1,4 @@
-//f. Dia da semana por número(Switch case)
+// Dia da semana por número(Switch case)
 
 var prompt = require('prompt-sync')();
 
